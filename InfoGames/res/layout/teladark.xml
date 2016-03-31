@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#8B8989">
+
+ 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="205dp"
+    android:background="#8B8989"
+    android:orientation="vertical"
+    android:label="InfoGames" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50px"
+        android:src="@drawable/dark" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogos multiplataforma levantam uma discussão comum à luz do seu lançamento: a diferença de desempenho entre consoles concorrentes. Nesse contexto, não é novidade que, com a chegada de Dark Souls III, exista a comparação sobre o quão bem PlayStation 4 e Xbox One são capazes de rodar o game. E o videogame da Microsoft parece ter algumas dificuldades para manter um bom desempenho. 
+
+Além de ter uma resolução nativa inferior à do PlayStation 4 - 900p contra 1080p -, uma análise feita pela consultoria Digital Foundry mostrou que a versão para Xbox One sofre com uma taxa de quadros inconstante. Mesmo considerando o aspecto um tanto subjetivo em termos de gráficos, o segundo quesito é algo que pode atrapalhar a experiência com o game no console da Microsoft.
+
+Uma taxa de quadros constante permite que o jogo mantenha uma jogabilidade fluída, algo fundamental em um game no qual o menor erro pode significar a morte do personagem controlado pelo jogador. A análise mostra oscilações nesta taxa: enquanto no videogame da Sony ela fica em 30fps constantes, no console da Microsoft ela cai com frequência em decorrência dos elementos presentes na tela, chegando a se aproximar dos 20fps em batalhas contra chefões. O jogo utiliza a mesma engine de Bloodborne, game exclusivo para PlayStation 4." />
+   
+</LinearLayout>
+</ScrollView>
